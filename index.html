@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="">
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700" rel="stylesheet">
+
+
+<link rel="icon" href="icon.ico">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+
+<!-- HEADER =============================-->
+<header class="item header margin-top-0">
+<div class="wrapper">
+	<nav role="navigation" class="navbar navbar-white navbar-embossed navbar-lg navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+			<i class="fa fa-bars"></i>
+			<span class="sr-only">Toggle navigation</span>
+			</button>
+			<img src="logo1.png" width="50px" height="50px" id="imagen" title="Network Medical">	<a href="index.html" class="navbar-brand brand"> Network Medical </a>
+		</div>
+		<div id="navbar-collapse-02" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+
+		<li><a href="#inicio">Inicio</a></li>     
+        <li><a href="#quienessomos">¿Quienes somos?</a></li>     
+        <li><a href="#preguntas">Preguntas frecuentes</a></li>     
+        <li><a href="#contactanos">contactanos</a></li>    
+			</ul>
+		</div>
+	</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="text-homeimage">
+					<div class="maintext-image" data-scrollreveal="enter top over 1.5s after 0.1s">
+						 NOS COMPROMETEMOS A PROTEGER EL MANEJO TU SANATORIO
+					</div>
+					<div class="subtext-image" data-scrollreveal="enter bottom over 1.7s after 0.3s">
+						 Equipo de Network Medical
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+
+<br><br>
+<div id="todo">
+
+
+    <section id="inicio">
+        <div class="inicio1">
+			<br>
+        <h1>Bienvenidos a nuestro sitio web</h1>
+
+		<br>
+        <p> Nuestro programa <strong>"Network Medical"</strong> puede ser utilizado por personas que tienen un sanatorio.</p>
+
+
+        <p>En el programa puedes encontrar diversos módulos los cuales son interactivos y ayudarán al usuario con el manejo de diferentes secciones 
+            del centro médico, en este caso es un sanatorio</p>
+        </div>
+            </section>
+
+
+            <section id="quienessomos">
+
+                <div class="quienessomos1">
+					<br><br><br><br>
+                    <h1>¿Quienes somos?</h1>
+
+                    <p>Somos una organizacion dedicada a la creación de aplicaciones para uso profesional contando con un excelente equipo de trabajo, abarcando una gran cantidad de  conocimiento desde aplicaciones para centros educativos hasta centros especializados en la salud.</p>
+
+                </div>
+            </section>
+
+
+
+
+
+            <section id="preguntas">
+                <div class="preguntas1">
+
+
+<br><br><br><br>
+                    <h1>Preguntas Frecuentes</h1>
+
+                    <ul>
+                    <li> <strong>¿Tiene algún costo el programa? </strong> Si tiene un precio, pero este varía dependiendo el tamaño de la aplicación.</li><br><br>
+                    <li> <strong>¿Tienen un correo específico para contactarlos?  </strong> Si tenemos uno el cual es "networkmedicalgt@gmail.com" pero puedes contactarnos por medio de esta misma página web CONTACTANOS</li><br><br>
+                    <li> <strong>¿En promedio cuánto tiempo tardan en hacer un software? </strong>Al igual que con la primera pregunta, va a variar dependiendo del tamaño del proyecto y las exigencias del cliente.</li><br><br>
+                    <li> <strong> ¿Cómo sé que es confiable esta organización? </strong> Hemos trabajado para muchas personas las cuales nos han recomendado y una de las maneras de confiar en nosotros es que nosotros nos comprometemos al igual que usted como cliente firmando un pequeña hoja que deja constancia de lo que se realizará.</li><br><br>
+                    <li><strong> ¿Qué método de pago tienen?</strong> Por medio de paypal, efectivo, tarjeta de crédito y débito.</li>
+				</section>
+
+
+                    </ul>
+
+</div>
+
+
+<section id="contactanos">
+
+
+
+
+
+
+<br><br>
+<p>Llena este pequeño formulario</p>
+	<form target="" name="formDatosPersonales" action="#">
+	
+		<label for="nombre">Nombre</label>
+		<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+	
+		<label for="apellidos">Apellidos</label>
+		<input type="text" name="apellidos" id="apellidos" placeholder="Escribe tu apellido"/>
+	
+		<label for="email" >Email</label>
+		<input type="email" name="email" id="email" placeholder="Email" required />
+	
+		<label for="asunto">Asunto</label>
+		<input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/>
+	
+		<label for="mensaje">Mensaje</label>
+		<textarea name="mensaje" for="mensaje" placeholder="Escribe tu consulta aquí" maxlength="300"></textarea>
+		
+
+		
+		<button onclick="recibido()"> Enviar a Network Medical</button>
+
+
+		<script>
+			function recibido(){
+		
+				swal("Mensaje Enviado", "Gracias por comunicarte con nosotros, que tengas un buen día.", "success");
+				
+			}
+		</script>
+		
+	</form>
+
+</section>
+</div>
+
+
+
+
+<!-- FOOTER =============================-->
+<div class="footer text-center">
+	<div class="container">
+		<div class="row">
+			<p>
+				<br><br>
+				 &copy; 2021 Network Medical<br/>
+				
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- SCRIPTS =============================-->
+<script src="jquery-.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="anim.js"></script>
+
+	
+</body>
+</html>
